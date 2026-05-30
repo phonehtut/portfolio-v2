@@ -43,7 +43,7 @@ const projects = [
         "Built the official website for Kyal Sin May Development Organization (KSM), a Myanmar-based NGO that grew from 15 women's self-help groups in Bogale Township into a registered development organization with national and international partnerships.\n" +
         "\n" +
         "KSM's mission: to strengthen resilient rural communities through women-led programs in health, livelihoods, safe migration, and environmental protection.",
-    image: "https://raw.githubusercontent.com/phonehtut/Pharmacy-Management-Filament/main/docs/previews/dashboard_preview.png",
+    image: "/projects/kyalsinmay.png",
     tags: ["Laravel", "Nuxt.js", "MYSQL", "C Panel", "REST API"],
     link: "https://kyalsinmay.org",
     github: "#",
