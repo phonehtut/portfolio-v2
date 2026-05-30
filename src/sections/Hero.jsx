@@ -197,31 +197,40 @@ export const Hero = () => {
           </div>
         </div>
 
-        {/* Skills Section */}
-        <div className="mt-20 animate-fade-in animation-delay-600">
-          <p className="text-sm text-muted-foreground mb-6 text-center">
-            Technologies I work with
-          </p>
-          <div className="relative overflow-hidden">
-            <div
-              className="absolute left-0 top-0 bottom-0 w-32
-             bg-gradient-to-r from-background to-transparent z-10"
-            />
-            <div
-              className="absolute right-0 top-0 bottom-0 w-32
-             bg-gradient-to-l from-background to-transparent z-10"
-            />
-            <div className="flex animate-marquee">
-              {[...skills, ...skills].map((skill, idx) => (
-                <div key={idx} className="flex-shrink-0 px-8 py-4">
-                  <span className="text-xl font-semibold text-muted-foreground/50 hover:text-muted-foreground transition-colors">
-                    {skill}
-                  </span>
-                </div>
-              ))}
-            </div>
+          {/* Skills Section */}
+          <div className="mt-20 animate-fade-in animation-delay-600">
+              <p className="text-sm text-muted-foreground mb-6 text-center">
+                  Technologies I work with
+              </p>
+              <div className="relative overflow-hidden">
+                  <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-background to-transparent z-10" />
+                  <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-background to-transparent z-10" />
+
+                  {/* Row 1 → */}
+                  <div className="flex animate-marquee-fast mb-3 hover:[animation-play-state:paused]">
+                      {[...skills.slice(0, 17), ...skills.slice(0, 17)].map((skill, idx) => (
+                          <span
+                              key={idx}
+                              className="flex-shrink-0 mx-2 px-5 py-2 rounded-full border border-primary/20 text-sm font-medium text-muted-foreground/50 hover:text-primary hover:border-primary hover:bg-primary/5 transition-all duration-200 cursor-default whitespace-nowrap"
+                          >
+          {skill}
+        </span>
+                      ))}
+                  </div>
+
+                  {/* Row 2 ← */}
+                  <div className="flex animate-marquee-reverse hover:[animation-play-state:paused]">
+                      {[...skills.slice(17), ...skills.slice(17)].map((skill, idx) => (
+                          <span
+                              key={idx}
+                              className="flex-shrink-0 mx-2 px-5 py-2 rounded-full border border-primary/20 text-sm font-medium text-muted-foreground/50 hover:text-primary hover:border-primary hover:bg-primary/5 transition-all duration-200 cursor-default whitespace-nowrap"
+                          >
+          {skill}
+        </span>
+                      ))}
+                  </div>
+              </div>
           </div>
-        </div>
       </div>
 
       <div

@@ -8,16 +8,16 @@ const testimonials = [
     author: "Pyae Sone",
     role: "HR Manager, Kyal Sin May.",
     avatar:
-      "https://api.dicebear.com/7.x/micah/svg?seed=PyaeSoneAung&backgroundColor=ff2d2d&backgroundType=solid",
+      "https://api.dicebear.com/7.x/micah/svg?seed=Pyae Sone&backgroundColor=ff2d2d&backgroundType=solid",
   },
-  // {
-  //   quote:
-  //     "Working with Pedro was a game-changer for our project. He delivered ahead of schedule with code quality that set a new standard for our team.",
-  //   author: "Michael Rodriguez",
-  //   role: "Product Manager, Digital Solutions",
-  //   avatar:
-  //     "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop",
-  // },
+  {
+    quote:
+      "Working with Phone Htut is absolutely fantastic. He’s great to collaborate with, provides excellent lead management, and always explains complex things in an easy-to-learn way. He is an important member of any project team.",
+    author: "Phyo Thura",
+    role: "Project Manager, New Way Solutions",
+    avatar:
+      "https://api.dicebear.com/7.x/micah/svg?seed=Phyo Thura&backgroundColor=ff2d2d&backgroundType=solid",
+  },
   // {
   //   quote:
   //     "Pedro's expertise in React and TypeScript helped us rebuild our entire frontend in record time. His architectural decisions continue to pay dividends.",
