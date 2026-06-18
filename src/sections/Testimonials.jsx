@@ -18,22 +18,22 @@ const testimonials = [
     avatar:
       "https://api.dicebear.com/7.x/micah/svg?seed=Phyo Thura&backgroundColor=ff2d2d&backgroundType=solid",
   },
-  // {
-  //   quote:
-  //     "Pedro's expertise in React and TypeScript helped us rebuild our entire frontend in record time. His architectural decisions continue to pay dividends.",
-  //   author: "Emily Watson",
-  //   role: "Engineering Lead, StartUp Labs",
-  //   avatar:
-  //     "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop",
-  // },
-  // {
-  //   quote:
-  //     "Not only is Pedro technically brilliant, but he's also a fantastic communicator and team player. He elevated everyone around him.",
-  //   author: "David Kim",
-  //   role: "CEO, Innovation Hub",
-  //   avatar:
-  //     "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
-  // },
+  {
+    quote:
+      "Phone Htut Khaung is a dedicated and reliable professional. His technical skills, teamwork, and commitment to excellence make him an outstanding contributor to any project.",
+    author: "Hein Htut Thar",
+    role: "Cyber Security, CSW",
+    avatar:
+      "https://api.dicebear.com/7.x/micah/svg?seed=Hein Htut Thar&backgroundColor=ff2d2d&backgroundType=solid",
+  },
+  {
+    quote:
+      "Phone Htut Khaung possesses a deep, foundational understanding of nearly every IT domain. He approaches infrastructure and deployments with a relentless curiosity and a highly collaborative mindset. Whether troubleshooting a complex pipeline or providing real-time support to fellow developers, His interactive and dedicated approach makes him an invaluable asset to any engineering team.",
+    author: "Paing Khant Kyaw",
+    role: "Applications Development Unit Officer, SATHAPANA Limited Myanmar",
+    avatar:
+      "https://api.dicebear.com/7.x/micah/svg?seed=Paing Khant Kyaw&backgroundColor=ff2d2d&backgroundType=solid",
+  },
 ];
 
 export const Testimonials = () => {
